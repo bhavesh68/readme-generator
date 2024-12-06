@@ -11,7 +11,6 @@ By prompting users with important project details, the application generates a w
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Link to the Demo](#Link to the Demo)
 
 ## Installation
 
