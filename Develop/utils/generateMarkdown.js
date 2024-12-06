@@ -8,7 +8,7 @@ function renderLicenseBadge(license) {
     case "ISC":
       return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]";
       break;
-      case "Mozilla":
+    case "Mozilla":
       return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]"
       break;
     default:
@@ -18,11 +18,7 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) { 
+function renderLicenseLink(license) {
   switch (license) {
     case "MIT":
       return "https://opensource.org/licenses/MIT";
@@ -30,13 +26,19 @@ function renderLicenseSection(license) {
     case "ISC":
       return "https://opensource.org/licenses/ISC";
       break;
-      case "Mozilla":
+    case "Mozilla":
       return "https://opensource.org/licenses/MPL-2.0"
       break;
     default:
       return "";
   }
 }
+
+// TODO: Create a function that returns the license section of README
+// If there is no license, return an empty string
+ function renderLicenseSection(license) {
+   return `${renderLicenseBadge(license)}(${renderLicenseLink(license)})`
+ }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -70,7 +72,7 @@ ${renderLicenseSection(data.license)}
 
 ## Contribution
 
-${data.contributing}
+${data.contribution}
 
 ## Tests
 
@@ -78,13 +80,11 @@ ${data.tests}
 
 ## Questions
 
-For any questions, please contact me:
 - GitHub: [${data.github}](https://github.com/${data.github})
+
+For any questions, please contact me:
 - Email: ${data.email}
   `;
 }
 
 export default generateMarkdown;
-
-
-

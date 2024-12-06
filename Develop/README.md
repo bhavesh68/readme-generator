@@ -1,10 +1,12 @@
 
-# My README
+# README CHALLENGE
 
 ## Description
-Sample for beginners
+
+This app simplfies the creation of the professional README files
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -13,22 +15,29 @@ Sample for beginners
 - [Questions](#questions)
 
 ## Installation
-easy to install
+
+Install it by cloning the repository
 
 ## Usage
-user friendly
+
+for assignment purpose only
 
 ## License
- https://opensource.org/licenses/ISC
 
-## Contributing
-undefined
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
+## Contribution
+
+N/A
 
 ## Tests
-undefined
+
+N/A
 
 ## Questions
-For any questions, please contact me:
+
 - GitHub: [bhavesh68](https://github.com/bhavesh68)
+
+For any questions, please contact me:
 - Email: bhaveshkhatwani999@gmail.com
   
